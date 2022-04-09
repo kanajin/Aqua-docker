@@ -8,6 +8,8 @@ Using docker to get simplified stat up
 # Usage
 
 - Download `datasource.zip` in the latest release and unzip
+- edit file `config/application.properties:15`, change `allnet.server.host` to  the ipv4 address of your docker machine
+- be sure port 80, 8443, 22345 is opened
 - `datasource$ sudo docker-compose up`
 
 # Data file
